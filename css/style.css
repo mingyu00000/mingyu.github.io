@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: orange;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #000000;
+}
+
+header {
+  background-color: #2F3033;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.section {
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 30px;
+}
+
+.container img {
+  margin-left: 80px;
+  margin-right: 10px;
+}
+
+.container div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container p {
+  font-size: 0.9em;
+  text-align: left;
+}
+
+#classified{
+  color: white;
+  text-align: left;
+  padding-left: 5px;
+  border: solid 1px white;
+  margin-left: 8px;
+  margin-right: 800px;
+  margin-top: 25px;
+  padding-right: 25px;
+  width: 1060px;
+}
+
+#style{
+  color: white;
+  border-radius: 10px;
+  border: solid 1px #444444;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 25px;
+  background-color: #1C1D1F;
+}
+
+#main {
+  color: white;
+  border-radius: 10px;
+  border: solid 1px #444444;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 25px;
+  background-color: #1C1D1F;
+  height: 2900px;
+}
+
+#list {
+  color: white;
+  text-align: left;
+  padding-left: 5px;
+  border: solid 1px white;
+  margin-left: 40px;
+  margin-right: 900px;
+  margin-top: 25px;
+  padding-right: 25px;
+}
+
+#introduce {
+  margin-left: 35px;
+}
+
+#project {
+  margin-left: 35px;
+}
+
+#hope {
+  margin-left: 35px;
+}
+
+#side {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#change {
+  color: white;
+  border-radius: 6px;
+  border: solid 1px #444444;
+  height: 360px;
+  width: 309px;
+  margin-top: 25px;
+  background-color: #1C1D1F;
+}
+
+#change p {
+  color: orange;
+}
+
+.ad-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 40%; /* 화면 중앙 정렬을 위한 조정 */
+  transform: translateY(-50%);
+  color: white;
+  border-radius: 6px;
+  border: solid 1px #444444;
+  height: 310px;
+  width: 309px;
+  margin-top: 165px;
+  background-color: #1C1D1F;
+  padding: 10px;
+}
+
+#Rmain {
+  display: flex;
+  justify-content: space-between;
+}
